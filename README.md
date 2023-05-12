@@ -3,7 +3,7 @@
 ## All Quarter 1 Assignments
 ### Here will be all mini projects given by Panaverse for NodeJs and TypeScript Module are here.
 ## 45 Questions Assignment
-Link: 
+Link: https://github.com/arbabmalik46/Panaverse-Q1-typescript-nodejs-projects/blob/93ad8320e4681529dfbc35c9bef5b6620c048d2c/Basic%20Exercise/getting-started-exercises.ts
 ### Projects
 ## Project00_calculator
 Link:
