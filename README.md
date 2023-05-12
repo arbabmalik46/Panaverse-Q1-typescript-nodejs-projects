@@ -2,6 +2,8 @@
 ## Web3.0 and Mataverse
 ## All Quarter 1 Assignments
 ### Here will be all mini projects given by Panaverse for NodeJs and TypeScript Module are here.
+## 45 Questions Assignment
+Link: 
 ### Projects
 ## Project00_calculator
 Link:
