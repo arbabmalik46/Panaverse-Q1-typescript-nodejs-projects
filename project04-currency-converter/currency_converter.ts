@@ -79,9 +79,11 @@ let currencyOptions = await inquirer.prompt({
 });
 for(var i =0;i<currnecies.length;i++)
 {
-    if(currencyOptions.currencyOptions==currnecies[i].name)
+    if(currencyOptions.currencyoption==currnecies[i].name)
     {
+        
         console.log(currnecies[i].name);
+        console.log(chalk.bgBlueBright(chalk.green(`Today's Market Price:`))+currnecies[i].price);
         console.log(userOptions.pkr/currnecies[i].price);
         break;
     }

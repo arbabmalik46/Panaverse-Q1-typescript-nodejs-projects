@@ -16,14 +16,17 @@ let todolist = [{
     name:"todo1",
     description:"Do assignment before time"
 }];
-if(options.options=="Show tasks")
+for(;;)
 {
-    console.log(chalk.green("Showing Tasks"));
-    todolist.forEach(p=>{
-        console.log(p.name);
-        console.log(p.description)
-    })
-}
+    if(options.options=="Show tasks")
+    {
+        console.log(chalk.green("Showing Tasks"));
+        todolist.forEach(p=>{
+            console.log(p.name);
+            console.log(p.description)
+        });
+        break;
+    }
 if(options.options=="Add task")
 {
     console.log(chalk.green("Add Task"));
@@ -43,11 +46,15 @@ if(options.options=="Add task")
             description : add_description.description
         }
     }
-    todolist.push(newTask)
+    todolist.push(newTask);
+    
 }
 if(options.options=="Exit")
 {
     console.clear();
     console.log(chalk.green("Exiting"));
+    break;
 }
 
+
+}
