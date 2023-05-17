@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.2.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  },
+  "name": "panaverse-q1-typescript-nodejs-projects",
+  "description": "Link: https://github.com/arbabmalik46/Panaverse-Q1-typescript-nodejs-projects/blob/93ad8320e4681529dfbc35c9bef5b6620c048d2c/Basic%20Exercise/getting-started-exercises.ts\r ### Projects\r ## Project00_calculator\r Link:\r NPX Command:\r ## Project01_Number_Guessing_Game\r Link:\r NPX Command:\r ## Project02_atm\r Link:\r NPX Command:\r ## Project03_ToDo_List\r Link:\r NPX Command:\r ## Project04_Currency_Converter\r Link:\r NPX Command:\r ## Project05_word_counter\r Link:\r NPX Command:\r ## Project06_student_management_system\r Link:\r NPX Command:\r ## Project07_adventure_game\r Link:\r NPX Command:\r ## Project08_quiz\r Link:\r NPX Command:\r ## Project09_countdown_timer\r Link:\r NPX Command:\r ## Project10_oop\r Link:\r NPX Command:\r ## Project11_oop_mybank\r Link:\r NPX Command:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
