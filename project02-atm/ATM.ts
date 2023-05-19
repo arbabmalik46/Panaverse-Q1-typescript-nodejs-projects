@@ -86,13 +86,22 @@ function findIndex(pinid:number): number {
 
 const checkBalance=(num:number)=>
 {
+    console.clear();
     return accounts[findIndex(num)].cash;
 }
 const withdraw=(w_cash:number,ind:number)=>
 {
-    let after_cut:number = accounts[ind].cash-w_cash;
-    accounts[ind].cash=after_cut;
-    return after_cut;
+    var remaining = "Remaining Amount: ";
+    if(w_cash>accounts[ind].cash)
+    {
+        return "Insufficient Balance";
+    }
+    if(w_cash%500!=0)
+    {
+        return "Try again will multiply of 500"
+    }
+    accounts[ind].cash = accounts[ind].cash - w_cash;
+    return remaining + accounts[ind].cash;
 }
 
  let option1 = await inquirer.prompt(
@@ -138,11 +147,11 @@ if(option1.options==="Current")
                     message:"Enter Amount:"
                 }
             );
-            withdraw(w_cash.w_cash,pin.pin)
+            console.log(withdraw(w_cash.w_cash,findIndex(pin.pin)));
         }
         if(secondOption.secondOption==="Cancel")
         {
-            console.log("Please Collecet Your Card.")
+            console.log("Please Collect Your Card.")
         }
     }
 }
@@ -180,11 +189,11 @@ if(option1.options==="Saving")
                     message:"Enter Amount:"
                 }
             );
-            withdraw(w_cash.w_cash,pin.pin)
+            withdraw(w_cash.w_cash,findIndex(pin.pin))
         }
         if(secondOption.secondOption==="Cancel")
         {
-            console.log("Please Collecet Your Card.")
+            console.log("Please Collect Your Card.")
         }
     }
 }
