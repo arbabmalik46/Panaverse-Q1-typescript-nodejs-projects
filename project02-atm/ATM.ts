@@ -114,7 +114,7 @@ const withdraw=(w_cash:number,ind:number)=>
     }
 );
 
-if(option1.options==="Current")
+if(option1.options==="Current" )
 {
     console.clear();
     console.log("Current Account Details");
@@ -124,7 +124,7 @@ if(option1.options==="Current")
         type: "number",
         message:"Enter Pin: "
     });
-    if(findIndex(pin.pin)!=-1)
+    if(findIndex(pin.pin)!=-1 && accounts[findIndex(pin.pin)].type==="Current")
     {
         let secondOption = await inquirer.prompt(
             {
@@ -138,7 +138,7 @@ if(option1.options==="Current")
         {
             console.log(`Current Balance: ${checkBalance(pin.pin)}`);
         }
-        if(secondOption.secondOption==="Withdraw") //facing error
+        if(secondOption.secondOption==="Withdraw") 
         {
             let w_cash = await inquirer.prompt(
                 {
@@ -166,7 +166,7 @@ if(option1.options==="Saving")
         type: "number",
         message:"Enter Pin: "
     });
-    if(findIndex(pin.pin)!=-1)
+    if(findIndex(pin.pin)!=-1 && accounts[findIndex(pin.pin)].type==="Saving")
     {
         let secondOption = await inquirer.prompt(
             {
