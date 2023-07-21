@@ -1,9 +1,22 @@
 # Panaverse
 ## Web3.0 and Mataverse
 ## All Quarter 1 Assignments
+## Requirements to run the projects on your environment
+To run these mini projects you need to check if [Node](https://nodejs.org/en/download) is installed on your environment.<br> To check that the node module is install write given command in your command prompt:<br>
+```
+npm -v
+```
+If yes then check if TypeScript is installed on your environment by running bellow command in command prompt
+```
+tsc -v
+```
+If not then, you are required to install typescript on your environment
+```
+npm i -g typescript
+```
 ### Here will be all mini projects given by Panaverse for NodeJs and TypeScript Module are here.
 ## 45 Questions Assignment
-Link: https://github.com/arbabmalik46/Panaverse-Q1-typescript-nodejs-projects/blob/93ad8320e4681529dfbc35c9bef5b6620c048d2c/Basic%20Exercise/getting-started-exercises.ts
+Link: [Intro TypeScript Questions](https://github.com/arbabmalik46/Panaverse-Q1-typescript-nodejs-projects/blob/93ad8320e4681529dfbc35c9bef5b6620c048d2c/Basic%20Exercise/getting-started-exercises.ts)
 ### Projects
 ## Project00_calculator
 Link:
