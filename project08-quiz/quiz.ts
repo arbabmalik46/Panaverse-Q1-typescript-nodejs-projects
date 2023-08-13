@@ -1,4 +1,4 @@
-
+import Questions from '../project08-quiz/Questions.js';
 /*
 User will enter his credentials and system will verify if it is correct or not.
  */
@@ -11,13 +11,13 @@ let usernames = {
     password:2211
 }
 
-let usernamea =['abm','fa_1,','munawarr','babara1','sabirg','akhters','javeds','akhtara13','hussains13'];
+let usernamelst =['abm','fa_1,','munawarr','babara1','sabirg','akhters','javeds','akhtara13','hussains13'];
 
 
 
 const checkusername = (username:string)=>{
     var index_i = 0;
-    usernamea.forEach(element => {
+    usernamelst.forEach(element => {
         if(element===username)
         {
             index_i = 1;
@@ -39,3 +39,9 @@ if(checkusername("username"))
 else{
     console.log("Please Check Username/Password");
 }
+
+if(valid===true)
+{
+    
+}
+let qu = new Questions("a","a");

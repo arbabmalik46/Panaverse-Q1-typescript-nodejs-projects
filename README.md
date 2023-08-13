@@ -47,7 +47,7 @@ NPX Command:
 Link:
 NPX Command:
 ## Project07_adventure_game
-### This project is not GUI based. It is a console-based game. The video here shows how to develop the game in Java. You will take the requirements of the game from the video and develop the game in [TypeScipt](https://www.typescriptlang.org/) and [Node.js](https://nodejs.org/en)
+### This project is not GUI based. It is a console-based game. The [video](https://www.youtube.com/watch?v=EpB9u4ItOYU&t=1s) here shows how to develop the game in Java. You will take the requirements of the game from the video and develop the game in [TypeScipt](https://www.typescriptlang.org/) and [Node.js](https://nodejs.org/en)
 Link:
 NPX Command:
 ## Project08_quiz
